@@ -1,8 +1,50 @@
-.ph {
-  width: 1000px;
-  height: 600px;
-  justify-content: center;
-  align-items: center;
+.app {
+  width: 400px;
+  height: 500px;
   background-color: #7bbbff;
-  margin: 0 10%;
+  box-shadow: 5px 5px 5px #696969;
+  margin: 0;
+}
+.loginForm {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.messageIn {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 7px 5px;
+  padding: 5px;
+  overflow: auto;
+  background-color: #aafdfd;
+}
+.messageOut {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 7px 5px;
+  padding: 5px;
+  overflow: auto;
+  background-color: #ff80d2;
+}
+.messenger {
+  width: 400px;
+  height: 440px;
+
+  align-items: center;
+  justify-content: center;
+}
+.input-group{
+  align-items: center;
+  margin-left: 22%;
+}
+.chatmain {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 0 5px 2px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
 }

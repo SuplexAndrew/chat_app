@@ -1,11 +1,11 @@
 import './App.css';
-import PlaceHolder from "./PlaceHolder";
 import React from "react";
+import Messenger from "./Messenger";
 
 function App() {
   return (
-    <div className="App">
-      <PlaceHolder />
+    <div className="app">
+      <Messenger />
     </div>
   );
 }
