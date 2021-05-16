@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "width": 420,
+    "height": 520,
+    "user_message_color": "bg-primary text-white",
+    "operator_message_color": "border",
+    "placeholder":  "blue",
+    "title": "chat"
+  }
+]

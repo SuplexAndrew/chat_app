@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/server/node_modules
+/adminGUI/admin_gui/node_modules
 /.pnp
 .pnp.js
 
