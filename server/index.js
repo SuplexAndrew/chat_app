@@ -48,8 +48,9 @@ const onConnection = async (socket) => {
         }
     })
     socket.on('operator_connection', async (token) => {
-        const t = await jwt.sign(token, key);
-        const j = await jwt.verify(t, key)
+        //const t = await jwt.sign(token, key);
+        //const j = await jwt.verify(t, key)
+        const j = true
         if (j) {
             const lastMessages = await userController.getLastMessages()
             socket.emit('getLastMessages', lastMessages)

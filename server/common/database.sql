@@ -5,7 +5,8 @@ create table Status (
 );
 create table User_ (
 	id SERIAL PRIMARY KEY,
-	token varchar(255)
+	token varchar(255),
+	visit_time timestamp
 );
 create table Message (
 	id SERIAL PRIMARY KEY,
@@ -22,7 +23,7 @@ create table Admin(
     login varchar(32),
     password varchar(32),
     salt varchar(32)
-)
+);
 insert into Status (name) values
 ('Отправлено'),('Доставлено'),('Прочитано');
 insert into message (text, time_, status_id, user_id) values
